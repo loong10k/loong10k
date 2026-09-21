@@ -10,9 +10,9 @@
 
 ---
 
-13 年从代码一线到技术总监，从教育信息化到出海直播，从单体到云原生。
+13+ 年从代码一线到技术总监，从教育信息化到出海直播，从单体到云原生。
 
-现在，All in AI Agent 基础设施。
+现在，All in AI Agent 基础设施 —— 当前在 **15 个 GitHub 组织**下推进 Agent Skills、Agent 执行引擎、Agent-driven 工作流的工程化落地。
 
 ### 🔨 做过的
 
@@ -23,27 +23,41 @@
 
 ### 🚀 正在做的
 
-**构建 AI Agent 开源基础设施，让 Agent 从 demo 走向生产：**
+**构建 AI Agent 开源基础设施，让 Agent 从 demo 走向生产。15 个 GitHub 组织按三层布局：**
 
-- 🤖 **[PartMe-AI](https://github.com/partme-ai)** — Agent 应用实践社区：Spring AI / Langchain4j 集成，LLM Gateway，211+ 即插即用专家角色，Agent-driven 工作流落地
-- 🧩 **[Full-Stack-Skills](https://github.com/partme-ai/full-stack-skills)** — 454 个标准化 Agent Skills，覆盖前端/后端/移动端/DevOps/设计全链路，支持 Claude Code / Cursor / Codex 等 43+ 平台
-- 🐙 **[OctoClaw-Labs](https://github.com/octoclaw-labs)** — 零信任流式 Agent 执行引擎（Rust / Java / Python / C++），章鱼架构，从云端到 ESP32 边缘节点统一调度
-- 🏗️ **144+ Spring Boot Starters** — Disruptor / Socket.IO / Shiro / Security / IP2Region / PF4J / Docx4j / Face Recognition… 累计 500+ Stars
+#### 🧠 Agent Skills 生态（标准化、可复用、跨平台发现）
+
+- 🧩 **[Full-Stack-Skills](https://github.com/full-stack-skills)** — **671 个** 标准化 Agent Skills，**47 个** 仓库覆盖全栈全链路，支持 Claude Code / Cursor / Codex / ZCode / Kimi Code 等 50+ 平台
+- 🎨 **[Full-AIGC-Skills](https://github.com/full-aigc-skills)** — **10 个** AIGC 平台仓库、56 个 Skill：即梦 / 可灵 / 智谱 / MiniMax / 扣子 / 小云雀 / Remotion / 证件照 / Baoyu / ProcessOn
+
+#### 🔌 Agent 插件生态（执行能力 + 审批门禁 + 三平台适配）
+
+- ⚙️ **[Full-Stack-Plugins](https://github.com/full-stack-plugins)** — 研发过程插件：Stitch 设计 / ProcessOn 图表 / CodeGuard 代码质量 / 宝塔面板（Codex / ZCode / Kimi 三平台独立安装）
+- 🎬 **[Full-AIGC-Plugins](https://github.com/full-aigc-plugins)** — AIGC 内容生成插件：Maya / Blender / Comfy / Dreamina / 剪映 / MiniMax / ImageFactory / VideoFactory / 火山引擎（13 个仓库）
+
+#### 🐙 Agent 基础设施（执行引擎 / 协议 / 工具库）
+
+- 🤖 **[PartMe-AI](https://github.com/partme-ai)** — Agent 应用实践主品牌：OpenClaw 30+ 插件、Teams-of-Agents 多智能体协作、Hermes-Agent 自进化 Agent、Spring AI / Langchain4j 集成、211+ 即插即用专家角色、LLM Gateway
+- 🐙 **[TinyClaw-AI](https://github.com/tinyclaw-ai)** — 零信任流式 Agent 执行引擎（Rust / Java / Python / C++ / Kotlin / TypeScript），章鱼架构，从云端到 ESP32 边缘节点统一调度，NATS 集群通信中枢
+- 🏛️ **[DDD-4-Java](https://github.com/ddd-4-java)** / **[DDD-4-Rust](https://github.com/ddd-4-rust)** — 领域驱动设计基础构件，Java/Rust 接口级对等
+- 🧰 **[Easy-4-Java](https://github.com/easy-4-java)** — **274 个** Java 公开仓库：155 个 Spring Boot Starter + 第三方 SDK + 框架扩展 + Prometheus 指标（Disruptor / Socket.IO / Shiro / Security / IP2Region / PF4J / Docx4j / Face Recognition…）
+- 🦀 **[Easy-4-Rust](https://github.com/easy-4-rust)** — Rust 业务工具集（Java 经典工具的 idiomatic 重铸）
+- 💾 **[RBatis-Plus](https://github.com/rbatis-plus)** — RBatis ORM 增强：MyBatis-Plus 风格的 Mapper / Service / Wrapper / 二级缓存
 
 ### 💡 相信的
 
-- AI Agent 的瓶颈不在模型能力，在工程化 —— 可复用的 Skills、可靠的记忆、可编排的协作协议才是从 demo 走向生产的关键
+- AI Agent 的瓶颈不在模型能力，在工程化 —— 可复用的 Skills、可靠的记忆、可编排的协作协议、可观测的执行引擎才是从 demo 走向生产的关键
 - 好的架构来自对业务痛点的深刻理解，而非对技术热点的追逐
 - 技术管理者的价值不在"管人"，在降低团队认知负载、提高决策质量
 - 开源是技术人最好的简历
 
 ### 🛠️ 技术栈
 
-**AI / LLM** · Spring AI · Langchain4j · RAG · Embeddings · MCP Protocol · Agent Skills · Multi-Agent · Fine-tuning
-**Enterprise Java** · Spring Boot / Cloud / Security · Shiro · MyBatis Plus · Disruptor · Netty · RocketMQ
+**Agent / LLM** · Agent Skills · Agent Loop · MCP Protocol · Multi-Agent · Spring AI · Langchain4j · RAG · Embeddings · vLLM · Ollama · LangFuse · FastGPT · ComfyUI · Hermes · OpenClaw
+**Enterprise Java** · Spring Boot / Cloud / Security · Shiro · Sa-Token · MyBatis Plus · Disruptor · Netty · RocketMQ · Hutool · DDD · CQRS · Event Sourcing
+**Rust 生态** · Tokio · async-trait · axum / actix · DDD-4-Rust · RBatis-Plus · Easy-4-Rust
 **Infrastructure** · Docker · K8s · KubeSphere · NATS · Consul · Debezium
 **Frontend & Cross-Platform** · Vue · React · Flutter · Tauri · Uni-App · Electron
-**AI Ops** · vLLM · Ollama · LangFuse · FastGPT · ComfyUI
 
 ### 📊 GitHub
 
@@ -54,8 +68,17 @@
 <img src="https://streak-stats.demolab.com?user=loong10k&hide_border=true" alt="GitHub Streak" />
 
 <p align="center">
-  <a href="https://wiki.hiwepy.com">🌐 Knowledge Base</a> · 
-  <a href="https://github.com/partme-ai">PartMe-AI</a> · 
-  <a href="https://github.com/full-statck-skills">Full-Stack-Skills</a> · 
-  <a href="https://github.com/octoclaw-labs">OctoClaw-Labs</a>
+  <a href="https://wiki.hiwepy.com">🌐 Knowledge Base</a> ·
+  <a href="https://github.com/partme-ai">PartMe-AI</a> ·
+  <a href="https://github.com/full-stack-skills">Full-Stack-Skills</a> ·
+  <a href="https://github.com/full-aigc-skills">Full-AIGC-Skills</a> ·
+  <a href="https://github.com/full-stack-plugins">Full-Stack-Plugins</a> ·
+  <a href="https://github.com/full-aigc-plugins">Full-AIGC-Plugins</a> ·
+  <a href="https://github.com/tinyclaw-ai">TinyClaw-AI</a>
+</p>
+
+<p align="center">
+  <a href="mailto:hiwepy@gmail.com">hiwepy@gmail.com</a> ·
+  <a href="mailto:partmeai@gmail.com">partmeai@gmail.com</a> ·
+  <strong>Hangzhou, China</strong>
 </p>
